@@ -8,7 +8,8 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 8,
+    location: 'online' ,
   },
   {
     id: 2,
@@ -19,7 +20,8 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 4,
+    location: 'online',
   },
   {
     id: 3,
@@ -30,7 +32,8 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 0,
+    location: 'online',
   },
   {
     id: 4,
@@ -41,7 +44,8 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 0,
+    location: 'online',
   },
   {
     id: 5,
@@ -52,7 +56,8 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 0,
+    location: 'online',
   },
   {
     id: 6,
@@ -63,7 +68,8 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 0,
+    location: 'hebron',
   },
   {
     id: 7,
@@ -74,7 +80,8 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 0,
+    location: 'hebron',
   },
   {
     id: 8,
@@ -85,6 +92,7 @@ export default [
     quantity: 5,
     country: 'USA',
     bodyTitle: 'Life lessons with Katie Zdferes',
-    openSpot: 0
+    openSpot: 10,
+    location: 'hebron',
   },
 ] 

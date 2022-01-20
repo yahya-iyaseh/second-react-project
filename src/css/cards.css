@@ -18,6 +18,9 @@
   flex-wrap: nowrap;
   overflow-x: auto
 }
+.card-grid::-webkit-scrollbar {
+  width: 0;
+}
 
 .margin-auto {
   margin: 1rem auto;

@@ -1,10 +1,18 @@
 import '../css/cards.css';
 export default function Card(props) {
+
+  let badgeText
+  if (props.openSpot === 0){
+    badgeText = "sold out"
+  } else if (props.location === 'online') {
+    badgeText = "online";
+  }
   return (
+
     <div className="card">
       <div className="image">
         <img src={props.img} alt="imgOne" />
-        {props.openSpot <= 0 && <span className="image-title">{props.status}</span>  } 
+        {badgeText && <span className="image-title">{badgeText}</span> } 
       </div>
       <div className="card-body">
         <div className="info">
